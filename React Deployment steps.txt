@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m 'initial commit'
+git remote add origin https://github.com/umamahesh2020/deploy-react.git
+git push -u origin master
+npm install gh-pages --save-dev
